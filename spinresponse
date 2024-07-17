@@ -1,0 +1,61 @@
+{
+  "type": "message",
+  "args": {
+    "messageType": "NewGameResponse",
+    "data": {
+        "ReelStopPositions": {
+            "reelSetNo": 1,
+            "reelSetIdentifier": "MG",
+            "reelStopPos": [
+                72,
+                8,
+                35,
+                59,
+                67
+            ],
+            "extendedReelAttributes": {
+
+            },
+            "msgNumber": 0
+        },
+        "SlotGameResult": {
+            "scatterDetails": {
+                "scatterCombination": [
+
+                ],
+                "scatterWinAmount": -1,
+                "msgNumber": 0
+            },
+            "tableBalance": 1016089640,
+            "totalSlotWinAmount": 0,
+            "winningLines": [
+
+            ],
+            "msgNumber": 0
+        },
+        "FeatureTrigger": {
+            "isFeatureTriggered": false,
+            "triggeringSymbols": [
+
+            ],
+            "msgNumber": 0
+        },
+        "BonusSpinDetails": {
+            "totalSpins": 5,
+            "availableSpins": 5,
+            "totalWin": 0,
+            "accountCurrency": "USD",
+            "isBonusSpinsCompleted": false,
+            "userBonusSpinId": 8393,
+            "bonusSpinName": "BFBFS3",
+            "unfinishedBFSGames": [],
+            "msgNumber": 0
+        },
+        "GameOver": {
+            "tableBalance": 1016089640,
+            "totalWin": 0,
+            "msgNumber": 0
+        }
+    }
+  }
+}
